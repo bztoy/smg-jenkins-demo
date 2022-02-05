@@ -6,6 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("|SMG Jenkins Demo|");
+		System.out.println("This is how the system works");
 		OnDemandRead odm = new OnDemandRead(99999999);
 		System.out.println("On-Demand Read value is " + odm.getOndemandRead() + "KW");
 		
