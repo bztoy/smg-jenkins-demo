@@ -5,7 +5,7 @@ import com.smg.ouaf.tlm.TransformerLoad;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("SMG Jenkins Demo");
+		System.out.println("|SMG Jenkins Demo|");
 		OnDemandRead odm = new OnDemandRead(99999999);
 		System.out.println("On-Demand Read value is " + odm.getOndemandRead() + "KW");
 		
