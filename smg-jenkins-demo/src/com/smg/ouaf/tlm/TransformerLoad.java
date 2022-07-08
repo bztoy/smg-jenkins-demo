@@ -8,7 +8,7 @@ public class TransformerLoad {
 	}
 	
 	public float getMaxLoad() {
-		return 599;
+		return 799;
 	}
 	
 	public String getMaxLoadString() {
