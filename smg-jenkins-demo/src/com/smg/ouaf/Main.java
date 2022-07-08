@@ -9,9 +9,10 @@ public class Main {
 		System.out.println("This is how the system works");
 		OnDemandRead odm = new OnDemandRead(99999999);
 		System.out.println("On-Demand Read value is " + odm.getOndemandRead() + "KW");
+		odm = new OnDemandRead(88888888);
+		System.out.println("On-Demand Read value is " + odm.getOndemandRead() + "KW");
 		
 		TransformerLoad tlm = new TransformerLoad(333456);
 		System.out.println(tlm.getMaxLoadString());
 	}
-
 }
