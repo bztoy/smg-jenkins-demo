@@ -5,7 +5,7 @@ private String ui;
 	
 	public OnDemandRead(int ui) {
 		this.ui = String.format("%010d", ui);
-		System.out.println("UI: " + this.ui + " is connected");
+		System.out.println("UI: " + this.ui + " is connected ...");
 	}
 	
 	public float getOndemandRead() {
